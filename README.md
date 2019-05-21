@@ -1,5 +1,5 @@
 # MisteriousDrizzle_PiP
-
+https://paulapenas99.github.io/MisteriousDrizzle_PiP/
 Joc fet per Patricia Huete i Paula Penas
 Es tracta d'un joc on un alumne qualsevol ha de recullir elements relacionats amb l’entorn multimèdia i esquiva els elements que no estan relacionats amb el grau de multimèdia.
 En el cas de que toquis un element multimèdia set sumaran punts i si aguantes 5 minuts sense morir guanyes la partida, si ho agafes algun element de multimèdia set restaran 3 punts.

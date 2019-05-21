@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P&P Videogame</title>
+    <script src="p5.min.js"></script>
+    <script src="Characters.js"></script>
+    <link rel="stylesheet" href="estil.css" />
+    <script src="scripts.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+</head>
+<body>
+<div id="container">
+    <h1><img src="data/Titol.png"></h1>
+    <h2>Choose your name</h2>
+    <input id="nomUsuari" placeholder="Put a name" maxlength="8">
+    <div class="flex-container">
+
+
+        <div id="Ranking2">
+            <img src="data/Ranking.png" id="ran">
+            <ol id="ranking" start="1"></ol>
+        </div>
+        <div id="canv"></div>
+        <div id="descripcio">Aquest joc consisteix en recollir els diferents elements multimèdia i evitar els objectes que no tenen res a veure amb la carrera. <br> Si obtens un element bo es sumaran +5 punts, en canvi, si reculls un objecte dolent es restaran -3 punts i perdràs una vida, es a dir, un dels cors. <br>En el cas de perdre tots els cors s'acabarà la partida i mostrarà la puntuació obtinguda en l'últim intent.<br>En canvi, si no has mort en 5 minuts hauràs guanyat el joc. <br><br> El joc també consta d'un botó per tal d'atruar la musica o continuar-la.
+            <div id="controls">
+                Controls
+                <img src="data/DE.png">
+            </div>
+        </div>
+    </div>
+<footer>&copy P&P Videogame - Joc realitzat per Patricia Huete i Paula Penas</footer>
+</div>
+</body>
+
+</html>

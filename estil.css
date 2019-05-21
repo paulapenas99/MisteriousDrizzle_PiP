@@ -1,0 +1,126 @@
+* {
+	margin:0;
+  padding: 0;
+}
+body {
+	font-family:serif;
+  background-color: black;
+  color:white;
+  /*background-image: url('data/Fons2.png');*/
+
+}
+#Ranking2 {
+    font-size: 50px;
+    width: 400px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#Ranking2>img{
+
+    width: 400px;
+    height: 600px;
+
+
+
+}
+
+#Ranking2>#ranking{
+    height: 600px;
+    overflow: auto;
+    position: absolute;
+    top: 125px;
+    color: white;
+    font: bold 40px/40px Helvetica, Sans-Serif;
+    letter-spacing: 2px;
+    padding-left:95px;
+
+    margin:0;
+
+
+}
+
+
+h1>img{
+    height: 120px;  
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+    margin-top: 0.5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3% 0;
+
+    /*
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    */
+  }
+  
+  #controls {
+    text-align: center;
+    font-size: 50px;
+    width: 300px;
+    height: 200px;
+    margin-top: 5%;
+  }
+
+  #controls>img{
+    width: 200px;
+    height: 100px;
+    padding-top: 20px;
+  }
+
+
+
+  #canv {
+    width: 600px;
+    margin-left: 2.5%;
+  }
+
+  #descripcio {
+    width: 300px;
+    font-size: 20px;
+    /*
+    padding: 0% 1%;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    */
+    text-align: justify;
+    margin-left: 2.5%;
+      padding: 0 50px;
+  }
+#nomUsuari{
+    margin: 1% auto 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20%;
+    height: 20px;
+
+}
+  footer{
+    background-color: grey;
+    width: 100%;
+    margin-top: 1.2%;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 4px 0;
+  }
